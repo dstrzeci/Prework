@@ -1,0 +1,164 @@
+﻿<!doctype html>
+<html>
+
+<head>
+ <meta charset="utf-8">
+ <meta name= " Autor" content= "dstrzeci">
+ <meta name="keywords" content="IPv6">
+ <meta name="description" content="Internet Protocol Version 6">
+ <title> Protokół IPv6 </title>
+ <link rel="stylesheet" type="text/css" href="ipv6_css.css">
+</<head>
+
+ <body>
+	<img src ="Fotos/logo_1.jpg" width="140" height="100" alt="IPv6" align="right">
+	<h1> <center> Wszystko, co chcielibyście wiedzieć o protokole IPv6 </H1> <br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+
+ <h3> Protokół IPv4 (Internet Protocol Version 4)</H3>
+  <img src ="Fotos/ipv4.png" align = "center-right" width="70" height="40" alt ="IPv4" >
+	<p> Protokół IPv4 został wprowadzony w 1981 roku i zawiera 4,3 miliardy unikalnych adresów IP, ale pula adresów IPv4 została już rozdysponowana.
+		Pierwszy raz protokół IPv4 został wykorzystany w latach osiemdziesiątych w sieci ARPANET, w celu połączenia kilkanaście uniwersytetów na terenie USA.
+		Obecnie nadal jest wykorzystywany w komunikacji w sieci Internet. Każde urządzenie podpięte do sieci ma swój unikalny adres IP. Adresacja IPv4 
+		pozwala na wygenerowanie 2^32 różnych kombinacji adresów IP, ale obecnie nie jest już wystarczająca dla całego świata.
+		Stąd w roku 1995 wprowadzono standard IPv6, który bardzo rozszerza ilość unikalnych adresów IP. Dokładnie jest to 2^128 różnych kombinacji.
+		Wyróżnikiem protokołu IPv4 jest 32 bitowa adresacja. Adresy IP zapisuje się zazwyczaj w konwencji kropkowej (<i>ang. Dotted Decimal Notation</i>)
+		Przykładowy adresu IP zapisany w standardzie IPv4 ma postać czterech liczb dziesiętnych rozdzielonych kropkami:<br/> <b>192.168.1.10</b> <br/>W takim zapisie każdą z czterech liczb zapisuje się jako liczbę dziesiętną z zakresu 0 do 255. 
+	</p>
+	<br/> <hr size="1" width="80%" color="lightgray" noshade="noshade"/>
+	 
+ <h3> Protokół IPv6 (Internet Protocol Version 6)</h3>
+  <img src ="Fotos/IPv6.jpg" align = "center-right" width="70" height="40" alt ="IPv6" >
+	<p> Protokół IPv6 został zaprojektowany jako następca IPv4. Jest to zmodyfikowana kombinacja propozycji wysuniętych w roku 1993 przez Deeringa i Francisa, 
+		pod nazwą SIPP (<i>ang. Simple Internet Protocol Plus</i>), którą oznaczone jako IPv6. Początki protokołu IPv6 sięgają roku 1995, kiedy pojawiła 
+		się jego specyfikacja. Od tego momentu zaczęto uruchamiać IPv6 w sieciach testowych. Protokół IPv6 spotkał się z zainteresowaniem wielu 
+		ośrodków akademickich, ale IPv6 okazuję się być trudnym do upowszechnienia. Adresy stosowane w protokole IPv6 mają długość 128 bitów, więc nie 
+		przewiduje się ich niedoboru w dającej się określić przyszłości. 
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+ 
+ <h3> Dlaczego zmieniać IPv4 na IPv6? </h3>
+  <img src ="Fotos/IPv4IPv6.png" align = "center-right" width="150" height="40" alt ="IPv4IPv6" >
+	<p> IPv6 jest następcą protokołu IPv4. Jedna z głównych przyczyn wprowadzenia protokołu IPv6 jest brak wolnej przestrzeni adresowej.
+		W dniu 3 Lutego 2011 roku organizacja ICANN (Internet Corporation for Assigned Names and Numbers) podała, że<br/> 
+		<i>"A critical point in the history of the Internet was reached today with the allocation of the last remaining IPv4 
+		(<i>Internet Protocol version 4</i>) Internet addresses from a central pool." </i>.</br/> W dniu tym skończyła się wolna przestrzeń adresowa IPv4. 
+		Zdecydowana większość połączeń internetowych generowana jest przez komputery, laptopy, serwery, telefony oraz inne urządzenia,
+		które identyfikowane są przy pomocy adresów IPv4. Ostatnia pula adresów IPv4 została już rozdysponowane i obecnie nie ma już 
+		możliwości przydziału nowych adresów IPv4. Protokół IPv6 pozwala rozwiązać problem braku IPv4 poprzez dostarczenie przestrzeni adresowej, 
+		wystarczającej do nadania unikalnego adresu IP dla nieograniczonej liczby urządzeń w sieci Internet. Pojawienie się IPv6 stanowi również świetną 
+		okazję do naprawienia wszystkich niedostatków IPv4. Przykładowy adres IPv6 wygląda tak: <b>2001:cdba:0000:0000:0000:0000:1237:1642 </b> 
+		Adres maja 8 sekcji zapisanych w systemie szesnastkowym (heksadecymalnym). Zapis adresu można skracać, np 2001:beef:ac::1. Początkowe zera są opcjonalne, np 0:0:0:0:0:0:0:0
+		<br> Inne powody stosowania IPv6 to narzucone wymogi, np: na stronie firmy
+		<a href = " https://developer.apple.com/news/?id=05042016a "> apple.com </a> <br/><br/>
+		<i>“Starting June 1, 2016 all apps submitted to the App Store must support IPv6-only networking.”</i>
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+
+ <h3> Co się stanie z dalszym użytkowaniem protokołu IPv4? </h3>
+  <img src ="Fotos/ipv4qm.png" align = "center-right" width="100" height="40" alt ="IPv6qm" >
+	<p> Protokół IPv6 pozostawał w cieniu protokołu IPv4 przez wiele lat, aż do czasu gdy operatorzy ISP (<i>ang. Internet Service Provider</i>) spotkały 
+		się z problemem braku adresacji IPv4. W niektórych krajach dni IPv4 są już policzone, ale zdecydowana większość małych dostawców jeszcze czeka z wdrożeniami.
+		Obecnie z IPv4 nie można zrezygnować, ale można migrować z IPv4 do IPv6. Mechanizmy migracji to <br>
+		<b>Dual Stack </b> - urządzenia jednocześnie korzystają z IPv4 oraz IPv6.
+		<b>Tunelowanie</b> - transport pakietów Ipv6 przez sieć IPv4.
+		<b>Translacja</b> - tłumaczenie pakietów Ipv6 na IPv4 i odwrotnie. 
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+ 
+ <h3> Jakie korzyści przyniesie wprowadzenie protokołu IPv6? </h3>
+ <img src ="Fotos/ipv6ok.png" align = "center-right" width="100" height="40" alt ="IPv6ok" >
+	<p> IPv6 zachowuje dobre cechy IP, odrzuca lub redukuje złe i tam gdzie trzeba, dodaje nowe. IPv6 nie jest zgodny z IPv4, ale jest zgodny z innymi
+		pomocniczymi protokołami Internetu. Najważniesz korzyści z wprowadzenia IPv6 to:
+	</p>	
+		<ul> 
+			<li> Większa liczba adresów internetowych </li>
+			<li> Autokonfiguracja </li>
+			<li> Wydajność </li>
+			<li> Zmniejszenie obciążenie routerów </li>
+			<li> Wyższy poziom bezpieczeństwa </li>
+		</ul>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+	
+ <h3> Co jest takiego dobrego w IPv6? </h3>
+ <img src ="Fotos/ipv6qm.png" align = "center-right" width="100" height="40" alt ="IPv6qm" >
+	<p> Po pierwsze IPv6 oferuje WIELE adresów. Ile adresów pytasz? Cóż, oto liczba dostępnych adresów </br><b>340 282 366 920 938 463 463 374 607 431 
+		768 211 456</b></br> Ważnym ulepszeniem IPv6 jest uproszczenie nagłówka. Zawiera on tylko 7 pól w porównaniu do 13 w IPv4. Zmiana ta pozwala routerom szybciej
+		przetwarzać pakiety, tym samym zwiększyć przepustowość sieci i zmniejszać opóźnienia przysyłanych danych. Kolejnym ulepszeniem jest brak opcji. Routery mogą pomijać opcje nie przeznaczone do nich i szybciej przetwarzać pakiety. 
+		Następnym obszarem jest wbudowane wsparcie dla bezpieczeństwa IPv6. Kluczowe cechy IPv6 to uwierzytelnianie i ochrona prywatności.
+		Na koniec warto wspomnieć o ulepszonej jakości usług w protokole IPv6. Z uwagi na rozwój multimediów w Internecie mechanizmy 
+		QoS (<i>ang. Quality of Service</i>) są kluczowe dla rozwoju multimediów.   
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+
+ <h3> Po co nam te wszystkie dodatkowe adresy IP? </h3>
+  <img src ="Fotos/ipv6plus.png" align = "center-right" width="100" height="40" alt ="IPv6plus" >
+	<p> Obecnie  większość ludzi ma w domu lub pracy komputer, smartfon, tablet, inteligentny telewizor, a wiele nowych samochodów ma WiFi lub może
+		być podłączona do sieci. Wszystkie te urządzenia wymagają pewnego sposobu przekazywania informacji do i z Internetu. W tym miejscu pojawią się
+		dodatkowe adresy. Chociaż Internet  nie rozpadnie się jutro, to jednak wymaga aktualizacji. Tam właśnie pojawia się protokół IPv6 i dodatkowe adresy.
+		Szkielet IPv4 został przydzielony na kilka miliardów adresów IP. W tamtym okresie komputer osobisty był ciągle w sferze marzeń
+		dla większości ludzi, a kilka miliardów adresów wydawało się wystarczające. Po kilku dekadach postępu technicznego mamy więcej komputerów niż 
+		adresów IP. Wprawdzie pojawiły się rozwiązania pozwalające "rozciągnąć" przestrzeń adresów IPv4, ale są to rozwiązanie doraźne. 
+		Zbliża się czas, w którym nie będziemy już mogli wycisnąć więcej z translacji NAT (<i>ang. Network Address Translation</i>) i
+		będziemy potrzebować lepszych opcji. IPv6 może wyeliminowanie wielu problemów, które nas obecnie nękają.
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+ 
+ <h3> W jakim zakresie IPv6 jest wykorzystywany teraz? </h3>
+  <img src ="Fotos/ipv6now.png" align = "center-right" width="100" height="40" alt ="IPv6now" >
+	<p> Raporty dotyczące globalnego wykorzystania protokołu IPv6 można znaleść na stronie www.worldipv6launch.org. 
+		Raport (Network Operator Measurements, 14th June 2017) pokazuje, że więcej niż 84% połączeń pochodzących od klientów T-Mobile USA
+		oraz Verizon Wireless do kilku największych portali i usługodawców internetowych było zestawianych z wykorzystaniem IPv6.
+		Wśród europejskich operatorów Deutsche Telekom AG w tym samym czasie zestawił ponad 43% połączeń z wykorzystaniem IPv6, a 
+		Czeski T-Mobile podaje wartość 5.29%. Jak wyglądają polskie statystyki? 
+		W zestawieniach Orange Poland podana jest wartość 14.47%.</br>
+		<img src ="orangepoland.png" align = "center" width="350" height="350" alt ="orange" >	</br>	
+		Statystyki ruchu IPv6 zostały zebrane w oparciu o dane pochodzących od pięciu firm, które dostarczają treści poprzez IPv6:
+		<ul> 
+			<li> Google </li>
+			<li> Facebook </li>
+			<li> Yahoo </li>
+			<li> LinkedIn </li>
+			<li> Akamai </li>
+		</ul>	
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+	
+ <h3> Czy są jakieś strony internetowe dostępne przy użyciu protokołu IPv6?</h3>
+  <img src ="Fotos/ipv6www.png" align = "center-right" width="100" height="40" alt ="ipv6www" >
+	<p> Wiele z głównych serwerów www jest skonfigurowanych i dostępnych również dla IPv6 lub przynajmniej go przetestowało.
+		Strony takie jak Facebook, Google, YouTube, Yahoo i inni są gotowe do pracy z IPv6. 
+		Netflix beta testuje streaming usług video w sieciach IPv6.
+		Przykładowe adresy stron, które dostępne są poprzez IPv6: <br>
+		<ul> 
+			<li> <a href = " http://ipv6.research.microsoft.com/ "> Microsoft </a> - http://ipv6.research.microsoft.com/ </li>
+			<li> <a href = " http://ipv6.facebook.com/ " > Facebook </a> - http://ipv6.facebook.com/ </li>
+			<li> <a href = " http://ipv6.apple.com/  "> Apple </a> - http://ipv6.apple.com/ </li>
+			<li> <a href = " http://ipv6.yahoo.com/  "> Yahoo </a> - http://ipv6.yahoo.com/ </li>
+			<li> <a href = " http://ipv6.linkedin.com/"> LinkedIn </a> - http://ipv6.linkedin.com/ </li>
+			
+		</ul>
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+	
+ <h3> Jak bezpieczny jest IPv6? </h3>
+  <img src ="Fotos/ipv6sec.png" align = "center-right" width="100" height="40" alt ="ipv6sec" >
+	<p> Funkcje bezpieczeństwa w IPv6 dodają zarówno dobre jak i złe rzeczy, jeśli chodzi o bezpieczeństwo.
+		Zalety zabezpieczeń protokołu IPv6 to:
+		Szyfrowanie warstwy sieciowej i uwierzytelnianie (szyfrowanie i uwierzytelnianie wszystkich Twoich danych na poziomie IP).
+		Ogromna przestrzeń adresowa umożliwia wysoką odporność na złośliwe skanowanie. Nie jest łatwe zautomatyzowanie skanowania.
+		Znacznie trudniej jest "odgadnąć" adres lub zainfekować robakiem urządzenie. Automatyczna konfiguracja adresów IP utrudnia testowanie i
+		wykrywanie słabości systemu. Wady zabezpieczeń protokołu IPv6 to:
+		Sieci będą bardziej podatne na włamania, jeśli sieć będzie źle zaprojektowana. IPv6 jest ciągle "zbyt nowy" dla większości administratorów,
+		więc hakerzy łatwiej mogą wykorzystać brak wiedzy, aby uzyskać dostęp do systemów w sieciach IPv6.
+	</p>
+	<br/> <hr size="2" width="80%" color="lightgray" noshade="noshade"/>
+ <h3> Mobility & IPv6 </h3>
+  <img src ="Fotos/ipv6mob.png" align = "center-right" width="100" height="40" alt ="ipv6mob" >
+	<p> Najczęściej protokół IPv6 wykorzystywany jest przy dostępie mobilnym. Wynika to z faktu, że przyłączenie stale przyrastającej liczby urządzeń
+		mobilnych wymaga dużej liczby unikalnych adresów IP. Korzystanie z protokołu IPv6 w przypadku połączeń mobilnych będzie łatwiejsze do osiągnięcia i potencjalnie szybsze z powodu braku konfiguracji
+		danych, które muszą być przechowywane na serwerze, tak jak jest to obecnie w protokołe IPv4.
+	</p> 
+	<img src ="Fotos/address.png" align = "center-right" width="420" height="100" alt ="adress_IPv6" >
+ </body>
+
+</html>
